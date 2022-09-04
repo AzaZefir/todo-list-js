@@ -1,0 +1,9 @@
+.block{
+    display: grid;
+    grid-template-columns: 10em 200px 300px;
+}
+.block >div{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
